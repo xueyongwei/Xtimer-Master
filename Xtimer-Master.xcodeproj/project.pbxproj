@@ -13,6 +13,7 @@
 		47091DBB1C52415C009397D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47091DB91C52415C009397D7 /* Main.storyboard */; };
 		47091DBD1C52415C009397D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47091DBC1C52415C009397D7 /* Assets.xcassets */; };
 		47091DC01C52415C009397D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47091DBE1C52415C009397D7 /* LaunchScreen.storyboard */; };
+		47091DCA1C524314009397D7 /* XTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47091DC91C524314009397D7 /* XTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		47091DBC1C52415C009397D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47091DBF1C52415C009397D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47091DC11C52415C009397D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47091DC81C524314009397D7 /* XTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTimer.h; sourceTree = "<group>"; };
+		47091DC91C524314009397D7 /* XTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		47091DAF1C52415C009397D7 /* Xtimer-Master */ = {
 			isa = PBXGroup;
 			children = (
+				47091DC71C524314009397D7 /* XTimer */,
 				47091DB31C52415C009397D7 /* AppDelegate.h */,
 				47091DB41C52415C009397D7 /* AppDelegate.m */,
 				47091DB61C52415C009397D7 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				47091DB11C52415C009397D7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47091DC71C524314009397D7 /* XTimer */ = {
+			isa = PBXGroup;
+			children = (
+				47091DC81C524314009397D7 /* XTimer.h */,
+				47091DC91C524314009397D7 /* XTimer.m */,
+			);
+			path = XTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47091DCA1C524314009397D7 /* XTimer.m in Sources */,
 				47091DB81C52415C009397D7 /* ViewController.m in Sources */,
 				47091DB51C52415C009397D7 /* AppDelegate.m in Sources */,
 				47091DB21C52415C009397D7 /* main.m in Sources */,
